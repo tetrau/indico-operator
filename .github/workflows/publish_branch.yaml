@@ -8,6 +8,7 @@ on:
 
 jobs:
   lib-check:
+    if: github.repository == 'weiiwang01/indico-operator'
     name: Check libraries
     runs-on: ubuntu-latest
     steps:
